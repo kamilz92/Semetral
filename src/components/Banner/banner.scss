@@ -1,0 +1,27 @@
+.banner {
+  height: 50vh;
+  background-image: url(../../assets/bannerBg2.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__textWrap {
+    padding: 2rem;
+  }
+  &__heading {
+    color: white;
+    font-family: Montserrat;
+    font-size: 3.3rem;
+    padding: .5rem;
+    background-color: rgba(black, 0.7);
+    margin-bottom: 2rem;
+    text-align: center;
+    &-3 {
+        font-size: 3rem;
+        margin: 0;
+    }
+  }
+}

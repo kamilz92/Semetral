@@ -1,0 +1,11 @@
+.socials {
+    display: flex;
+    margin-left: auto;
+
+    &__link {
+        display: block;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+}
