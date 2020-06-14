@@ -4,7 +4,7 @@ import './Logo.scss';
 const Logo = () => (
   <div className="logo">
     <span className="logo__span">
-      Dyrebeskyttelsens
+      DDyrebeskyttelsens
       <br />
       Bergen
     </span>
