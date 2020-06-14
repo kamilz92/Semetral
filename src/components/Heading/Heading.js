@@ -1,7 +1,8 @@
 import React from 'react';
+import './heading.scss';
 
 const Heading = ({ tag: Tag, children }) => (
-  <Tag>
+  <Tag className="heading">
     {children}
   </Tag>
 );
